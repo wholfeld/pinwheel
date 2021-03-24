@@ -1,0 +1,22 @@
+{
+    "name": "pinwheel",
+    "displayName": "pinwheel",
+    "publisher": "warwheel",
+    "description": "pinwheel theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pinwheel theme",
+                "uiTheme": "hc-black",
+                "path": "./themes/pinwheel theme-color-theme.json"
+            }
+        ]
+    }
+}
