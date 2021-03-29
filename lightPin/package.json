@@ -1,0 +1,21 @@
+{
+    "name": "lightPin",
+    "displayName": "lightPin",
+    "description": "Light Pinwheel theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "light pin",
+                "uiTheme": "vs",
+                "path": "./themes/light pin-color-theme.json"
+            }
+        ]
+    }
+}

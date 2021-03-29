@@ -2,21 +2,32 @@
 	"name": "pinwheel theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#0E111C",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#243238",
+		// "editor.background": "#0E111C",
+		"editor.foreground": "#e0e2ce",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#8d8989"
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+			],
+			"settings": {
+				// "foreground": "#5e6172",
+				"foreground": "#5a7a87",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Puncuation Definition",
+			"scope": [
+				"punctuation.definition.comment.python",
 			],
 			"settings": {
 				"foreground": "#5e6172",
-				"fontStyle": "italic bold"
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -26,7 +37,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#EEffFF"
 			}
 		},
 		{
@@ -55,7 +66,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#8155D1",
+				"foreground": "#00DBFD",
 				"fontStyle": "italic",
 			}
 		},
@@ -73,7 +84,6 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -109,7 +119,7 @@
 				"foreground": "#8155D1",
 				"fontStyle": "bold"
 			}
-		},		
+		},
 		{
 			"name": "Function, Special Method",
 			"scope": [
@@ -121,7 +131,7 @@
 				"foreground": "#00A4CF",
 				"fontStyle": "bold"
 			}
-		},		
+		},
 		{
 			"name": "Function, Special Method",
 			"scope": [
@@ -175,7 +185,7 @@
 				"variable.parameter",
 			],
 			"settings": {
-				"foreground": "#B23E78",
+				"foreground": "#E46890",
 				"fontStyle": "bold"
 			}
 		},
@@ -191,7 +201,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#e7ab04"
 			}
 		},
 		{
@@ -207,16 +217,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope": [
-				"support.type"
-			],
-			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#076780",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -260,7 +262,7 @@
 				"meta.attribute"
 			],
 			"settings": {
-				"foreground": "#00D093"
+				"foreground": "#bbaf04"
 			}
 		},
 		{
